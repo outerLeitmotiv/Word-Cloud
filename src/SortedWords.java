@@ -8,15 +8,17 @@ import java.util.TreeMap;
  */
 public class SortedWords {
 
-    private TreeMap<String, Integer> sortedWords= new TreeMap<String, Integer >();
+    private Map<String, Integer> sortedWords= new TreeMap<String, Integer >();
 
 
-    public int put(String key) {
-      /*  if (sortedWords.containsKey(key)) {
-            return sortedWords.put(key,sortedWords.remove(key)+1);
-        } else { */
-           return sortedWords.put(key, 1);
-    //    }
+    public Object put(String key, int num) {
+        if (sortedWords.containsKey(key)) {
+            return  sortedWords.put(key, num+1);
+        }
+
+        else {
+           return sortedWords.put(key, num);
+        }
     }
 
     public void printCloud () {
