@@ -1,1 +1,1 @@
-# CloudWord test for SDA classes
+# Word Cloud test for SDA classes
