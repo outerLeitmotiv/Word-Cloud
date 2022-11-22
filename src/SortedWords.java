@@ -2,7 +2,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * @author Olivier
+ * @author Olivier et Guillaume
  * <p>
  * GitHub link : https://github.com/outerLeitmotiv
  */
